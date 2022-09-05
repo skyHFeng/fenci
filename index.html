@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fenci_5.0</title>
+    <link rel="stylesheet" href="./lib/bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./lib/jquery.js"></script>
+    <script src="./index.js"></script>
+</head>
+<body style="padding: 15px" class="flex-center">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">在线分词</h3>
+        </div>
+        <!-- 在线输入列表 -->
+        <form id="form1" style="padding: 20px">
+            <textarea name="input" class="form-control" rows="4" placeholder="原文"></textarea> <br>
+            <button type="submit" class="btn btn-primary">提交</button>
+        </form>
+        
+        <!-- 在线分词结果框 -->
+        <form style="padding: 20px">
+            <textarea id="result-online" class="form-control" rows="4" placeholder="结果"></textarea>
+        </form>
+    </div>
+
+    <div class="panel panel-danger">
+        <div class="panel-heading">
+            <h3 class="panel-title">文件分词</h3>
+        </div>
+        <!-- 文件输入列表 -->
+        <form id="form2" class="form-group has-error" style="padding: 20px">
+            <input type="text" name="column" class="form-control" placeholder="请输入要操作的列，如：9"/><br>
+            <input type="file" name="information"/> <br>
+            <input type="button" id="btn" class="btn btn-danger" value="提交"/>
+        </form>
+        <!-- 文件分词结果列表 -->
+        <form style="padding: 20px">
+            <ul class="list-group" id="result-list">
+                <li class="list-group-item">
+                    <!-- badge类存在右浮动 -->
+                    <span class="badge">语言</span>
+                    <span class="badge">大数据框架</span>
+                    <span class="badge">机器学习框架</span>
+                    <span class="badge">NLP</span>
+                    <span class="badge">CV</span>
+                    <span class="badge">AI</span>
+                    <span class="badge">Top10</span>
+                    结果文件
+                </li>
+            </ul>
+        </form>
+    </div>
+    <!-- loading -->
+    <div class="loading three-balls-bounce" id="loading">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+    </div>
+
+</body>
+</html>

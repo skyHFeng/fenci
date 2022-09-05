@@ -1,0 +1,26 @@
+AI ai 人工智能
+CV cv 视觉 机器视觉 计算机视觉
+NLP nlp 自然语言 自然语言处理
+图像处理 图像
+视频处理 视频
+文本处理 文本
+语音处理 语音
+Spark spark SPARK Sparkmlib SparkML SparkMLlib SparkMllib sparkMlib
+TensorFlow Tensor TensorFLow Tensorflow tensorFlow tensorflow 
+PyTorch torch Torch Pytorch pyTorch pytorch
+MXNet MxNet Mxnet mxnet
+Scikit sklearn Sklearn
+Hadoop hadoop
+Hive HIVE hive
+Storm storm
+Keras keras
+Caffe caffe
+Scala scala
+Python python PYTHON
+Java java JAVA
+C c C语言 c语言
+C++ c++
+PHP php Php
+SQL sql
+Go go Golang
+Matlab matlab MATLAB
